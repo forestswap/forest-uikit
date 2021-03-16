@@ -2764,21 +2764,21 @@ var ResetCSS = createGlobalStyle(templateObject_1$K || (templateObject_1$K = __m
 var templateObject_1$K;
 
 var baseColors = {
-    failure: "#ED4B9E",
-    primary: "#64BB6A",
-    primaryBright: "#9FD983",
-    primaryDark: "#37782C",
-    secondary: "#D1A44F",
-    success: "#00BCF5",
-    warning: "#FF8935",
+    failure: "#7F2D00",
+    primary: "#2b6777",
+    primaryBright: "#16888D",
+    primaryDark: "#334A52",
+    secondary: "#52ab98",
+    success: "#F99136",
+    warning: "#8E4B5D",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FEFED3", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#005700", textDisabled: "#A1AFA0", textSubtle: "#0D7127", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#ffffff", backgroundDisabled: "#e9eaeb", contrast: "#191326", invertedContrast: "#f2f2f2", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#2b6777", textDisabled: "#28979C", textSubtle: "#4C8596", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#0D7127", background: "#004F04", backgroundDisabled: "#002E00", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#3D9548", primaryDark: "#0098A1", tertiary: "#002E00", text: "#EAE2FC", textDisabled: "#F6EDD9", textSubtle: "#EEFEED", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#28979C", background: "#2b6777", backgroundDisabled: "#7FB8C9", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#3D9548", primaryDark: "#0098A1", tertiary: "#28979C", text: "#8BC5D6", textDisabled: "#F6EDD9", textSubtle: "#EEFEED", borderColor: "#334A52", card: "#2F8675", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
